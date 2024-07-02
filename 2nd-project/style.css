@@ -14,8 +14,15 @@ body{
   box-shadow: rgb(143, 141, 141) 10px 10px 40px;
   overflow: hidden;
 }
-.card img{
+.card .photo{
   width: 100%;
+}
+.icon{
+  display: none;
+  position:absolute;
+  top: 39%;
+  left: 35%;
+  width:100px;
 }
 .card-body{
   padding: 30px;
