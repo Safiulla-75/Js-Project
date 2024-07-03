@@ -1,14 +1,10 @@
-let buttonParent = document.getElementById('#btnContainer');
-
-function noBtn(){
-  if (buttonParent.style.cssText.includes('column-reverse')){
-    buttonParent.style.cssText = 'flex-direction: column-reverse';
+function buttonMsg() {
+  const icon = document.querySelector('.icon');
+  if (icon) {
+    icon.style.display = 'block';
+  
+    setTimeout(() => {
+      icon.style.display = 'none';
+    }, 1000);
   }
-  else{
-  buttonParent.style.cssText = 'flex-direction: column-reverse';
-}
 };
-
-function buttonMsg(){
-    window.open("https://api.whatsapp.com/send/?phone=917586843561&hi")
-}
