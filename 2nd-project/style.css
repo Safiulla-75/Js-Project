@@ -17,6 +17,13 @@ body{
 .card .photo{
   width: 100%;
 }
+.icon{
+  display: none;
+  position: absolute;
+  top: 44%;
+  left: 44%;
+  width: 100px;
+}
 .card-body{
   padding: 30px;
   margin: 0;
